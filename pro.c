@@ -74,8 +74,6 @@ void *work(void *i)
             vu++;
         }
     
-    }
     
-    
-    pthread_exit(NULL);
+   pthread_exit(NULL);
 }
